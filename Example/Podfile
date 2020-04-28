@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SJNSDK_Example' do
+  pod 'SJNSDK', :path => '../'
+
+  target 'SJNSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
