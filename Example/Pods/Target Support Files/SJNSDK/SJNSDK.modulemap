@@ -1,0 +1,6 @@
+framework module SJNSDK {
+  umbrella header "SJNSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
