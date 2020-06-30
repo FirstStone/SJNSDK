@@ -7,6 +7,7 @@
 //
 
 #import "SJNViewController.h"
+#import <SJNSDK/SJNSDK.h>
 
 @interface SJNViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  在创建项目的时候只需要导入这个类库就可以，用里面的各种特效和功能
+  #在创建项目的时候只需要导入这个类库就可以，用里面的各种特效和功能
 TODO: Add long description of the pod here.
                        DESC
 
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'SJNSDK' => ['SJNSDK/Assets/*.png']
   # }
   #s.public_header_files为公共头文件路径
-    s.public_header_files = 'Pod/Classes/**/*.h'
+    #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   #s.denpendency为第三方pod库名称
   # s.dependency 'AFNetworking', '~> 2.3'

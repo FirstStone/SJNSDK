@@ -7,6 +7,7 @@
 //
 
 #import "SJNAppDelegate.h"
+#import <SJNSDK/SJNSDK.h>
 
 @implementation SJNAppDelegate
 
